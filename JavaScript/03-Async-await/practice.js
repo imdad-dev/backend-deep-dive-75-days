@@ -47,7 +47,7 @@
 // })
  
 
- // calling multiple APIs in parallel using Promise.all and async/await
+//  calling multiple APIs in parallel using Promise.all and async/await
 
  const fetchData = async  ()=>{
 

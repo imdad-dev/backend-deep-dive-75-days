@@ -5,9 +5,9 @@ setTimeout(() => console.log("Task Queue → setTimeout"), 0);
 Promise.resolve().then(() => console.log("Microtask Queue → Promise.then"));
 
 // show Error , reject should be hanle by catch
-Promise.reject().then(() => {
-  console.log("Microtask Queue 2");
-});
+// Promise.reject().then(() => {
+//   console.log("Microtask Queue 2");
+// });
 
 console.log("End");
 
