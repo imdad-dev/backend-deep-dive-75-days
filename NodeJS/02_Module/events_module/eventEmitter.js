@@ -5,6 +5,8 @@ const os = require('os');
 
 //create a instance of object EventEmitter 
 const emitter = new EventEmitter();
+
+
   function  greet() {
     console.log("run 1")
 }
