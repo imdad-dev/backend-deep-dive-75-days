@@ -1,6 +1,5 @@
-// ================================
 // TypeScript: Type Annotation & Inference
-// ================================
+
 
 // Type Annotation (manual type)--> samjhana padtha h 
 let userName: string = "Imdadul";
@@ -39,9 +38,6 @@ let data: null = null;
 let value: undefined = undefined;
 
 
-// ================================
-// Practice
-// ================================
 
 let studentName: string = "Imdadul";
 let semester: number = 5;
@@ -58,18 +54,3 @@ console.log(selectedUser);  // // // null -> Value is intentionally empty.
 console.log(apiResponse);  // undefined -->Variable exists, but no value is assigned yet.
 
 
-// ================================
-// Quick Revision
-// ================================
-
-/*
-string     -> "Hello"
-number     -> 100, 99.5
-boolean    -> true / false
-bigint     -> 123456789n
-null       -> empty value
-undefined  -> not assigned
-
-Annotation -> let age: number = 21;
-Inference  -> let age = 21;
-*/
